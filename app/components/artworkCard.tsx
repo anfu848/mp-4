@@ -10,10 +10,10 @@ export default function ArtCard(props: Artwork) {
     return (
         <ArtContainer className="art-card">
             <h2>Title: {props.title}</h2>
+            <h5>Description: {props.description}</h5>
             <p>Department: {props.department}</p>
             <p>Dated to: {props.dated}</p>
             <p>Culture: {props.culture}</p>
-            <p>Description: {props.description}</p>
             <br/>
         </ArtContainer>
     )
